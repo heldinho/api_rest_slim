@@ -48,7 +48,7 @@
 		$user = json_decode($request->getBody());
 		$modelUser = new User(null, $user->name, $user->email, $user->telefone, $user->address);
 		$persistencia = new Persistence();
-		$persistencia->persist($modelUser);
+		$persistencia->insert($modelUser);
 		echo "['POST']: \n" . json_encode($user);
 	}
 

@@ -4,7 +4,7 @@
 
 	class Persistence {
 
-		public function persist($object) {
+		public function insert($object) {
 
 			if ($this->isValidObject($object)) {
 
