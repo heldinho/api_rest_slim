@@ -1,0 +1,1 @@
+php curl -i -X POST -H 'Content-Type: application/json' -d '{"name": "Marinalva Passos", "email": "marinalva@gmail.com", "telefone": "966880403", "address": "Rua Antigo Continente"}' 'http://localhost/slim-webservice-exemplo/get.php/users'
