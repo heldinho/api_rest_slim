@@ -1,5 +1,3 @@
-FORMAT: 1A
-
 ### Fazer clonagem do repositório para a pasta raiz do apache estrutura usada (xampp ou wamp).
 
 ### Segue arquivo api_teste.sql para a base de dados de efetuar o teste.
